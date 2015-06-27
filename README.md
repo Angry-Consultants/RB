@@ -1,4 +1,4 @@
 ###Angry Consultants API Docs
 
-base_url:
+base_url: angry-cons.herokuapp.com
 
