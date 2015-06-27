@@ -1,10 +1,9 @@
 ###Angry Consultants API Docs
 
-base_url: (angry-cons.herokuapp.com)
+base_url: angry-cons.herokuapp.com
 
-End Points:
 
-####Levels
+####Level End Points
 * [Create a Level](#create-a-level)
 `POST /levels`
 * [Get a Level](#get-a-levels)
