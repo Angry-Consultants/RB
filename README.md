@@ -1,6 +1,6 @@
 ###Angry Consultants API Docs
 
-base_url: (angry-cons.herokuapp.com)
+base_url: [angry-cons.herokuapp.com]
 
 End Points:
 
