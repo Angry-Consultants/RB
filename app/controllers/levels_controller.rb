@@ -8,10 +8,12 @@ class LevelsController < ApplicationController
 
   def index
     @level = Level.all
+    render status: :ok
   end
 
   def show
     @level = level.find(params[:id])
+    render status: :ok
   end
 
 end
