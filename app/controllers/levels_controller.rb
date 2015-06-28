@@ -3,7 +3,7 @@ class LevelsController < ApplicationController
   def create
     @level = Level.new(title: params[:title], properties: params[:properties])
     @level.save
-      render "level.json.jbuilder", status: :created
+      render json: @level, status: :created
   end
 
   def index
